@@ -1,0 +1,84 @@
+/* General styles - put these straight into your stylesheet */
+/* General page styles - this is the set of general styles for the page */
+
+body {
+    margin: 0;
+  }
+  
+  html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
+  }
+  
+  /* Selectors to be matched up with rulesets */
+  
+  /*
+  .card article img
+  .card footer
+  .card header
+  .card
+  */
+  
+  /* Rulesets to be matched up with selectors */
+  
+  .card {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: red;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+  
+  .card header {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+  }
+  
+  .card footer {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+  }
+  
+  .card article img {
+    max-height: 100%;
+    float: right;
+    object-fit: cover;
+  }
+
+  .card header, 
+  .card footer {
+    height: 3.125em;
+    padding: 0.625em 1em;
+    line-height: 1.875em;
+  }
+
+  .card h2, .card p {
+    margin: 0;
+  }
+
+  .card article {
+    height: 13em;
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  .card header h2 {
+    font-size: 2em;  /* 20px divided by the root font size (10px) */
+    line-height: 0.5em; /* (30px - 20px) / 2, divided by the root font size (10px) */
+    font-style: bold;
+  }
+
+  .card footer p {
+    font-size: 1.5em; /* 15px divided by the root font size (10px) */
+    line-height: 0.75em; /* (30px - 15px) / 2, divided by the root font size (10px) */
+  }
+
+  .card article p {
+    padding-left: 1.25em; 
+    color: #dfeeee; /* Light color for improved readability */
+  }
+
+  /* setup of card container */
+  /* style specific to header and footer */
+  /* style specific to the main business card contents */

@@ -1,12 +1,48 @@
 h1 {
-    color: red;
+    color: black;
+    text-decoration: underline dotted;
   }
 
 p,
 li {
-    color: green;
+    color: maroon;
   }
 
 li {
     list-style-type: upper-roman;
+}
+
+span {
+  text-shadow: 0 0 2px blue;
+}
+
+.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li.special,
+span.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li em {
+  color: rebeccapurple;
+}
+
+h1 + p {
+  font-size: 200%;
+}
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  text-decoration: wavy;
 }
